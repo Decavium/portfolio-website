@@ -1,3 +1,5 @@
+import { TwitterIcon } from "../ui/icon";
+
 export default function DesignSystem() {
     return (
         <main>
@@ -76,7 +78,7 @@ print 'It took ' + i + ' iterations to sort the deck.';`}</code></pre>
                                     </ol>
                                     <h3>Icons</h3>
                                     <ul className="icons">
-                                        <li><a href="#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
+                                        <li><TwitterIcon classes="alt"/></li>
                                         <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
                                         <li><a href="#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
                                         <li><a href="#" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
