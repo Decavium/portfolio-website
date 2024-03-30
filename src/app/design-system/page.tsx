@@ -1,11 +1,16 @@
-import { TwitterIcon } from "../ui/icon";
+import Image from "next/image";
+
+//Images
+import Pic01 from "/public/images/design-system/pic01.jpg";
+import Pic02 from "/public/images/design-system/pic02.jpg";
+import Pic03 from "/public/images/design-system/pic03.jpg";
+import Pic04 from "/public/images/design-system/pic04.jpg";
+import Pic05 from "/public/images/design-system/pic05.jpg";
+import Pic06 from "/public/images/design-system/pic06.jpg";
 
 export default function DesignSystem() {
     return (
-        <main>
-
-            {/* Wrapper */}
-            <div id="wrapper">
+            <main id="wrapper">
 
                 {/* Header */}
                 <header id="header">
@@ -78,7 +83,7 @@ print 'It took ' + i + ' iterations to sort the deck.';`}</code></pre>
                                     </ol>
                                     <h3>Icons</h3>
                                     <ul className="icons">
-                                        <li><TwitterIcon classes="alt"/></li>
+                                        <li><a href="#" className="icon brands fa-twitter"><span className="label">Facebook</span></a></li>
                                         <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
                                         <li><a href="#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
                                         <li><a href="#" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
@@ -314,21 +319,21 @@ print 'It took ' + i + ' iterations to sort the deck.';`}</code></pre>
                             <h3>Fit</h3>
                             <div className="box alt">
                                 <div className="row gtr-uniform">
-                                    <div className="col-12"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-                                    <div className="col-4"><span className="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                    <div className="col-12"><span className="image fit"><Image src={Pic04} width={0} height={0} quality={100} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic01} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic02} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic03} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic03} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic01} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic02} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic02} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic03} width={0} height={0} quality={85} alt="" /></span></div>
+                                    <div className="col-4"><span className="image fit"><Image src={Pic01} width={0} height={0} quality={85} alt="" /></span></div>
                                 </div>
                             </div>
                             <h3>Left &amp; Right</h3>
-                            <p><span className="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent lorem ipsum dolor sit amet veroeros consequat. Etiam tempus lorem ipsum.</p>
-                            <p><span className="image right"><img src="images/pic06.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus..</p>
+                            <p><span className="image left"><Image src={Pic05} width={0} height={0} quality={90} alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent lorem ipsum dolor sit amet veroeros consequat. Etiam tempus lorem ipsum.</p>
+                            <p><span className="image right"><Image src={Pic06} width={0} height={0} quality={90} alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus..</p>
                         </section>
 
                     </section>
@@ -365,8 +370,6 @@ print 'It took ' + i + ' iterations to sort the deck.';`}</code></pre>
                     <p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
                 </footer>
 
-            </div>
-
-        </main>
+            </main>
     )
 }
